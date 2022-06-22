@@ -22,6 +22,6 @@ public struct AttributedText: View {
             .kerning(attributedFont?.attributes.kerning ?? 0)
             .tracking(attributedFont?.attributes.tracking ?? 0)
             .lineSpacing(attributedFont?.lineSpacing ?? 0)
-            .padding(.vertical, (attributedFont?.lineSpacing?.rounded()).flatMap { $0 / 2 })
+            .padding(.vertical, (attributedFont?.lineSpacing?.rounded()).flatMap { $0 / 2 } ?? 0)
     }
 }
