@@ -1,6 +1,6 @@
 # AttributedFont
 
-[![Build](https://github.com/christmas-blues/AttributedFont/actions/workflows/build.yml/badge.svg)](https://github.com/riiid/AttributedFont/actions/workflows/build.yml)
+[![Build](https://github.com/christmas-blues/AttributedFont/actions/workflows/build.yml/badge.svg)](https://github.com/christmas-blues/AttributedFont/actions/workflows/build.yml)
 
 SwiftUI에서 `Font`에 어트리뷰트를 설정하는 획기적인 방법.
 
@@ -245,7 +245,7 @@ AttributedText.concatenate(
 [`Package.swift`](https://developer.apple.com/documentation/swift_packages/package) 파일의 `dependencies`에 아래 라인을 추가합니다.
 
 ```swift
-.package(url: "https://github.com/riiid/AttributedFont.git", .upToNextMajor(from: "1.0.0"))
+.package(url: "https://github.com/christmas-blues/AttributedFont.git", .upToNextMajor(from: "1.0.0"))
 ```
 
 그 다음, `AttributedFont`를 타겟의 의존성으로 추가합니다.
@@ -264,7 +264,7 @@ import PackageDescription
 let package = Package(
     name: "MyPackage",
     dependencies: [
-        .package(url: "https://github.com/riiid/AttributedFont.git", .upToNextMajor(from: "1.0.0"))
+        .package(url: "https://github.com/christmas-blues/AttributedFont.git", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
         .target(name: "MyTarget", dependencies: ["AttributedFont"])
@@ -277,14 +277,14 @@ let package = Package(
 File > Swift Packages > Add Package Dependency를 선택한 다음, 아래의 URL을 입력합니다.
 
 ```
-https://github.com/riiid/AttributedFont.git
+https://github.com/christmas-blues/AttributedFont.git
 ```
 
 자세한 내용은 [Adding Package Dependencies to Your App](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)을 참조하세요.
 
 ## 기여하기
 
-저희는 모든 종류의 기여를 환영하며, 기여해 주시는 분들의 모든 의견을 존중합니다. 간단한 기능 추가, 버그 픽스, 오타 수정 등이라도 주저하지 말고 [이슈](https://github.com/riiid/AttributedFont/issues)나 [PR](https://github.com/riiid/AttributedFont/pulls)을 생성하여 의견을 제기해 주세요.
+저희는 모든 종류의 기여를 환영하며, 기여해 주시는 분들의 모든 의견을 존중합니다. 간단한 기능 추가, 버그 픽스, 오타 수정 등이라도 주저하지 말고 [이슈](https://github.com/christmas-blues/AttributedFont/issues)나 [PR](https://github.com/christmas-blues/AttributedFont/pulls)을 생성하여 의견을 제기해 주세요.
 
 #### 메인테이너
 
