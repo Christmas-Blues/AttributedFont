@@ -1,8 +1,3 @@
-# ⚠️ DEPRECATED ⚠️
-
-This project is no longer maintained and will be continued from the original maintainer's repository
-https://github.com/stleamist/AttributedFont
-
 # AttributedFont
 
 [![Build](https://github.com/riiid/AttributedFont/actions/workflows/build.yml/badge.svg)](https://github.com/riiid/AttributedFont/actions/workflows/build.yml)
