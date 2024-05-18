@@ -1,6 +1,6 @@
 # AttributedFont
 
-[![Build](https://github.com/riiid/AttributedFont/actions/workflows/build.yml/badge.svg)](https://github.com/riiid/AttributedFont/actions/workflows/build.yml)
+[![Build](https://github.com/christmas-blues/AttributedFont/actions/workflows/build.yml/badge.svg)](https://github.com/riiid/AttributedFont/actions/workflows/build.yml)
 
 SwiftUI에서 `Font`에 어트리뷰트를 설정하는 획기적인 방법.
 
